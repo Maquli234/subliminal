@@ -32,5 +32,7 @@ Designed to be fast, quiet, and suitable for bug bounty and penetration testing 
 ## Installation
 ```bash
 git clone https://github.com/Maquli234/subliminal.git
-cd SUBLIMINAL
+cd Ssubliminal
+python3 -m venv venv
+source venv/bin/activate
 pip install -r requirements.txt

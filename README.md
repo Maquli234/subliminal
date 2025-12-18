@@ -36,3 +36,6 @@ cd subliminal
 python3 -m venv venv
 source venv/bin/activate
 pip install -r requirements.txt
+chmod +x subliminal.py
+sudo ln -s $(pwd)/subliminal.py /usr/local/bin/subliminal
+

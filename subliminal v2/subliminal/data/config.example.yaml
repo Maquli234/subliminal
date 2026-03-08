@@ -1,0 +1,36 @@
+# subliminal/data/config.example.yaml
+# Copy to ~/.subliminal.yaml and customise
+
+domain: ""                        # override with -d / --domain on CLI
+
+# ── Discovery ────────────────────────────────────────────────────────────────
+sources:
+  - crtsh
+  - certspotter
+  - bufferover
+  - threatcrowd
+  - hackertarget
+  - alienvault
+
+active: false                     # TLS-SAN enrichment (makes active connections)
+bruteforce: false                 # DNS brute-force
+wordlist: null                    # path to wordlist; null = bundled list
+
+# ── HTTP Probing ──────────────────────────────────────────────────────────────
+probe: true
+concurrency: 150
+timeout: 3
+follow_redirects: true
+status_filter: []                 # [] = accept any status; e.g. [200, 301, 302]
+
+# ── Output ────────────────────────────────────────────────────────────────────
+output_txt:  null                 # e.g. results/alive.txt
+output_json: null
+output_csv:  null
+output_html: null
+
+# ── Misc ─────────────────────────────────────────────────────────────────────
+verbose: false
+rate_limit: 0                     # API requests/sec per source (0 = unlimited)
+user_agent: "SUBLIMINAL/2.0"
+profile: "deep"

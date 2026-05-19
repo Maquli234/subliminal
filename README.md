@@ -14,8 +14,7 @@
 [![Python](https://img.shields.io/badge/python-3.10%2B-blue?logo=python&logoColor=white)](https://python.org)
 [![License: MIT](https://img.shields.io/badge/license-MIT-green)](LICENSE)
 [![Code style: ruff](https://img.shields.io/badge/code%20style-ruff-orange)](https://docs.astral.sh/ruff)
-[![Stars](https://img.shields.io/github/stars/Maquli/subliminal?style=flat&color=yellow)](https://github.com/Maquli/subliminal/stargazers)
-[![Issues](https://img.shields.io/github/issues/Maquli/subliminal?color=red)](https://github.com/Maquli/subliminal/issues)
+
 
 </div>
 

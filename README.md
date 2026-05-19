@@ -11,7 +11,6 @@
 
 **passive · precise · silent subdomain reconnaissance**
 
-[![CI](https://github.com/Maquli/subliminal/actions/workflows/ci.yml/badge.svg)](https://github.com/Maquli/subliminal/actions)
 [![Python](https://img.shields.io/badge/python-3.10%2B-blue?logo=python&logoColor=white)](https://python.org)
 [![License: MIT](https://img.shields.io/badge/license-MIT-green)](LICENSE)
 [![Code style: ruff](https://img.shields.io/badge/code%20style-ruff-orange)](https://docs.astral.sh/ruff)
